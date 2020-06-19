@@ -69,6 +69,11 @@ const vueConfig = {
     })
   },
   css: {
+    loaderOptions: {
+      less: {
+        javascriptEnabled: true
+      },
+    }
   },
 
   devServer: {
